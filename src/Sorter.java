@@ -30,8 +30,13 @@ public class Sorter {
         }
     }
 
+    public static void sort(int[] arr){
+        selectionSort(arr);
+    }
+
+
     // method for insertion sort
-    public static void insertionSort(int[] arr) {
+    /*public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) { // start at 1 because first element is already sorted
             int key = arr[i];
@@ -45,7 +50,7 @@ public class Sorter {
     }
 
     // method calls insertionSort
-    public static void sort(int[] arr) {
+    /*public static void sort(int[] arr) {
         insertionSort(arr);
-    }
+    }*/
 }

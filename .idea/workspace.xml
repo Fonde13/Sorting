@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d0e66d6-364e-4eb5-b779-c8113e9261f7" name="Changes" comment="committed and initialized the lab">
+    <list default="true" id="4d0e66d6-364e-4eb5-b779-c8113e9261f7" name="Changes" comment="Added SelectionSort in main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +62,27 @@
       <option name="project" value="LOCAL" />
       <updated>1695575004832</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added SelectionSort">
+      <created>1695576629576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695576629576</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added SelectionSort in main">
+      <created>1695576736863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695576736863</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="committed and initialized the lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="committed and initialized the lab" />
+    <MESSAGE value="Added SelectionSort" />
+    <MESSAGE value="Added SelectionSort in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SelectionSort in main" />
   </component>
 </project>
