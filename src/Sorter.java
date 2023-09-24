@@ -29,4 +29,23 @@ public class Sorter {
             arr[i] = smallerNumber;
         }
     }
+
+    // method for insertion sort
+    public static void insertionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 1; i < n; i++) { // start at 1 because first element is already sorted
+            int key = arr[i];
+            int j = i - 1;
+            while (j >= 0 && arr[j] > key) { // move elements of arr[0..i-1], that are greater than key, to one position ahead of their current position
+                arr[j + 1] = arr[j];
+                j = j - 1;
+            }
+            arr[j + 1] = key; // insert key into the correct position in the sorted subarray
+        }
+    }
+
+    // method calls insertionSort
+    public static void sort(int[] arr) {
+        insertionSort(arr);
+    }
 }
