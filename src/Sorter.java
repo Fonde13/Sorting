@@ -48,8 +48,8 @@ public class Sorter {
     }
 
     // method sort calls insertion sort
-    //
-    public static void sort(int arr[]) {
+    //We need to rename to avoid conflict
+    public static void sortByInsertionSort(int arr[]) {
         insertionSort(arr);
     }
 
