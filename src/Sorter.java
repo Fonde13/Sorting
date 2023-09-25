@@ -13,10 +13,8 @@ public class Sorter {
         for(int i:arr1){
             System.out.print(i+" ");
         }
-
-
-
     }
+
     public static void selectionSort(int[] arr){
         for (int i = 0; i < arr.length - 1; i++)
         {
@@ -30,6 +28,10 @@ public class Sorter {
             arr[index] = arr[i];
             arr[i] = smallerNumber;
         }
+    }
+
+    public static void selectionsorting(int[] arr){
+        selectionSort(arr);
     }
 
 
