@@ -14,6 +14,8 @@ public class Sorter {
             System.out.print(i+" ");
         }
 
+
+
     }
     public static void selectionSort(int[] arr){
         for (int i = 0; i < arr.length - 1; i++)
@@ -45,8 +47,5 @@ public class Sorter {
         }
     }
 
-    // method calls insertionSort
-    public static void sort(int[] arr) {
-        insertionSort(arr);
-    }
+
 }
